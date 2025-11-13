@@ -4,6 +4,7 @@ from sklearn.metrics import f1_score
 from sklearn import metrics
 from sklearn.model_selection import GridSearchCV
 #无缺失数据
+print(11111)
 #超参数1
 lgb_ne = lgb.LGBMClassifier(loss_function='MultiClass',class_weight={0:1,1:2.7,2:4.3})
 param_dist={'n_estimators':[100,200,500,1000],

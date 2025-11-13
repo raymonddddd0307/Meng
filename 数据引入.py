@@ -2,6 +2,8 @@ import os
 import pandas as pd
 import numpy as np
 from sklearn import preprocessing
+
+print(2222)
 df=pd.DataFrame()
 speed_mean=[]
 speed_25=[]
